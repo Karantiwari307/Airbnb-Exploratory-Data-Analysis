@@ -14,7 +14,7 @@
 An American firm called Airbnb, runs an online marketplace for travel-related services and accommodations, especially home stays for holiday rentals. Our objective is to evaluate the dataset and derive various conclusions based on pricing, neighborhood, and crowd.
 
 ## Description of the dataset:
-There are 48895 rows and 16 columns in our dataset. There are several null values that I have fixed.
+This dataset have the details about the airbnbs present in Ney York city.There are 48895 rows and 16 columns in our dataset. There are several null values that I have fixed.
 
 ## Data cleaning:
 We deleted the null values from the dataset before filtering it according to our needs. Our dataset contains null values, which may interfere with our accuracy therefore I removed them at the start of my project to achieve a better outcome. Then I saw the description of the data and found an outlier on the minimum night column, so swapped the outliers with the 95 percentile quantile value of minimum night column.
